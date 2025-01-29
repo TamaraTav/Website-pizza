@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(../fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: 'open-sans';
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+
 * {
 margin: 0;
 padding: 0;
@@ -19,18 +28,18 @@ box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 22px 35px 22px 84px;
+    padding: 22px 30px 22px 84px;
 
 }
 .left h1 {
     font-size: 80px;
-    font-family: Montserrat, sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-weight: 800;
     margin-bottom: 20px;
 }
 .left p{
     font-size: 1.3rem;
-    font-family:"Open Sans", sans-serif;
+    font-family:'open-sans', sans-serif;
     font-style: italic;
     line-height: 2;
     margin: 20px 42px 0 0;
@@ -50,7 +59,7 @@ box-sizing: border-box;
     background-size: cover;
 
 }
-
 .right img {
     width: 750px;
 }
+
